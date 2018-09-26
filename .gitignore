@@ -104,5 +104,10 @@ typings/
 # Serverless directories
 .serverless
 
+# Nuxt build
+.nuxt
+
+# Nuxt generate
+dist
 
 # End of https://www.gitignore.io/api/node,macos
