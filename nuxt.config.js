@@ -98,6 +98,13 @@ module.exports = {
     },
 
     /*
+    ** 何回も使用するライブラリ・モジュールは重複しないようにバンドルする
+    */
+    vendor: [
+      'three'
+    ],
+
+    /*
     ** Run ESLint on save
     */
     extend (config, { isDev, isClient }) {
